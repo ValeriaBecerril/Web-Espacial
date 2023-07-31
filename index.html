@@ -1,0 +1,124 @@
+<!-- DOCTYPE - Declaración de un archivo tipo html -->
+<!DOCTYPE html>
+<!-- lang - Lenguaje del sitio -->
+<html lang="en">
+<!-- HEAD (cabeza) metadata - info para el navegador -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web espacial</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- Conectar google fonts con html -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- Segunda fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!--Tercera fuente-->
+</head>
+<!-- BODY - Lo que ve el usuario -->
+<body>
+    <!-- MAIN - contenido principal -->
+    <main>
+        <h1 class="title-webb">Webb espacial</h1>
+
+        <!-- ÍNDICE CON ANCLAS -->
+        <div>
+            <a class="title-astrolink" href="#astrobiologia">Astrobiología</a>
+            <!--Aqui podria ir un <br> para que quede en lista-->
+            <a class="title-universolink" href="#universo">Origen del universo</a>
+            <a class="title-estrellaslink" href="#estrellas">Origen de las estrellas</a>
+        </div>
+        <!-- IMAGEN A TRAVÉS DE LA WEB -->
+        <img class="astro" src="https://www.icog.es/redespa/wp-content/uploads/2014/01/astrobiocartel.jpg" alt="Estrellas del cúmulo globular tomadas por el telescopio Hubble">
+        <!-- IMAGEN A TRAVES DE LA COMPU -->
+        <img class="espacio" src="/images/Espacio.jpg">
+        <img class="origenestrella" src="https://static.nationalgeographic.es/files/styles/image_3200/public/Stars_101_ES~~~~~es~mux~~1.jpg?w=1900&h=1069" alt="">
+
+        <!-- DIV - Crear divisiones-->
+        <div>
+            <!-- LISTAS -->
+            <h3 class="title-masivas">Top de estrellas más masivas</h3>
+            <!-- OL - LISTAS ORDENADAS -->
+            <ol class="li-top">
+                <li>R136a1, estrella hipergigante azul</li>
+                <li>Estrella de la nebulosa Peonía</li>
+                <li>Estrella Pistola</li>
+            </ol>
+
+            <h3 class="title-misiones">Misiones espaciales</h3>
+            <!-- UL - LISTA NO ORDENADA -->
+            <ul class="li-misiones">
+                <li>Apollo 8</li>
+                <li>Géminis</li>
+                <li>Apollo 11</li>
+                <li>Luna 1</li>
+                <li>Curiosity</li>
+            </ul>
+        </div>
+        <!-- hr - división horizontal -->
+        <hr>
+
+        <h3 class="title-astrobiologia" id="astrobiologia"> Astrobiología </h3>
+        <p class="paragraph-astrobiologia">
+             La astrobiología es el estudio de los orígenes, evolución, distribución y futuro de la vida en el universo. Este campo interdisciplinario requiere una comprensión integral e integrada de los fenómenos biológicos, geológicos, planetarios y cósmicos. La astrobiología abarca la búsqueda de entornos habitables en nuestro sistema solar y en planetas alrededor de otras estrellas; la búsqueda de evidencia de química prebiótica o vida en cuerpos del sistema solar como Marte, la luna Europa de Júpiter y la luna Titán de Saturno; e investigación sobre el origen, la evolución temprana y la diversidad de la vida en la Tierra. Los astrobiólogos abordan tres preguntas fundamentales: ¿Cómo comienza y evoluciona la vida? ¿Existe vida en otros lugares del universo? ¿Cuál es el futuro de la vida en la Tierra y más allá? 
+        </p>
+
+        <h3 class="title-universo" id="universo">Origen del universo </h3>
+        <p class="paragraph-teoria">
+            La teoría que mejor describe el origen del Universo es la del “Big Bang”. En la propuesta el Universo completo estaba concentrado en un mismo punto, a partir del cual empezó a expandirse, desde las partículas elementales en los primeros milisegundos, hasta las galaxias que se pueden observar hoy en día. Según esta teoría, el universo se expandió rápidamente desde un estado inicial muy pequeño y comprimido; pero no hubo una explosión propiamente dicha, como el término ‘bang’ puede darnos a entender.
+        </p>
+
+        <h3 class="title-estrellas" id="estrellas"> Origen de las estrellas </h3>
+        <p class="paragraph-estrellas">
+            Las estrellas se forman a partir de nubes moleculares: regiones poco densas del espacio que consisten principalmente en hidrógeno, helio y otros elementos más pesados. Sobre estas nubes diferentes fuerzas son ejercidas, como la gravedad de sus propios elementos o el choque con otras nubes. El efecto de esas fuerzas provoca el surgimiento de regiones más densas en su interior, y las hacen colapsar bajo su propia gravedad.
+            Al colapsar se forma un "Glóbulo de Bok": una nebulosa oscura de gas, que de continuar densificándose da inicio a la generación de temperatura, formando así un núcleo de protoestrella. Así surgen las estrellas jóvenes, que pueden reconocerse al emitir un chorro de gas sobre su eje de rotación. Finalmente, cuando alcanzan ciertas condiciones de estabilidad, pasan a su llamada secuencia principal, que consiste en la prolongada fusión de hidrógeno en helio en su interior. Ya entonces pueden ser consideradas estrellas. 
+        </p>
+
+        <!-- FORMULARIOS - form (se enviará información) -->
+        <h2 class="title-preguntas" id="preguntas"> Preguntas </h2>
+        <form>
+            <p class="title-edad">¿Cúal es la edad del universo?</p>
+            <label for="edad-universo">
+                <input type="text">
+                <button>Enviar</button>
+            </label>
+            
+            <!--RADIO- seleccionar una -->
+            <p class="title-apolo">¿Cuántas misiones Apolo existieron?</p>
+            <!-- label- etiqueta para identificar cada respuesta ( 3 misiones)-->
+            <label class="tres-misiones" for="3-misiones">
+                <!-- input- insertar algo data 
+                atributo name: relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="apolo"> 3 misiones
+            </label>
+            <label class="diez-misiones" for="10-misiones">
+                <input type="radio" name="apolo"> 10 misiones
+            </label>
+
+            <!--CHECKBOX- seleccionar varias -->
+            <p class="title-celestes">¿Qué objetos celestes existen?</p>
+            <label class="galaxias" for="galaxias">
+                <input type="checkbox" name="celeste"> Galaxias
+            </label>
+            <label class="planetas" for="planetas">
+                <input type="checkbox" name="celeste"> Planetas
+            </label>
+            <label class="nebulosas" for="nebulosas">
+                <input type="checkbox" name="celeste"> Nebulosas
+            </label>
+            <label class="satelites" for="satelites">
+                <input type="checkbox" name="celeste"> Satélites
+            </label>
+            <label class="plantas" for="plantas">
+                <input type="checkbox" name="celeste"> Plantas
+            </label>
+            <label class="agujeros" for="agujeros">
+                <input type="checkbox" name="celeste"> Agujeros negros
+            </label>
+        </form>
+    </main>
+</body>
+</html>

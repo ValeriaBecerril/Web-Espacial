@@ -1,0 +1,118 @@
+body{
+    background-color: #003D5B;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/955/69/70/minimalism-space-stars-wallpaper-preview.jpg);
+    background-size: cover;
+    background-size: auto;
+    font-family: 'Comfortaa', cursive;
+}
+.title-webb{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+.title-astrolink{
+    font-family: 'Press Start 2P', cursive;
+    color: #EDAE49;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.title-universolink{
+    font-family: 'Press Start 2P', cursive;
+    color: #EDAE49;
+    text-decoration: none;
+    margin-left: 250px;
+}
+.title-estrellaslink{
+    font-family: 'Press Start 2P', cursive;
+    color: #EDAE49;
+    text-decoration: none;
+    margin-left: 180px;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 18px;
+}
+.espacio{
+    width: 300px;
+    height: 210px;
+    margin-left: 200px;
+}
+.origenestrella{
+    height: 210px;  
+    margin-left: 230px;
+}
+.title-masivas{
+    color: #EDAE49;
+}
+.li-top{
+    color: azure;
+}
+.title-misiones{
+    color: #EDAE49;
+}
+.li-misiones{
+    color: azure;
+}
+.title-astrobiologia{
+    font-size: 20px;
+    color: #EDAE49;
+}
+.paragraph-astrobiologia{
+    text-align: justify;
+    color: azure;
+    line-height: 25px;
+}
+.title-universo{
+    color: #EDAE49;
+}
+.paragraph-teoria{
+    text-align: justify;
+    color: azure;
+    line-height: 25px;
+}
+.title-estrellas{
+    color: #EDAE49;
+}
+.paragraph-estrellas{
+    text-align: justify;
+    color: azure;
+    line-height: 25px; 
+}
+.title-edad{
+    color: azure;
+}
+.title-apolo{
+    color: azure;
+}
+.tres-misiones{
+    color: aliceblue;
+}
+.diez-misiones{
+    color: aliceblue;
+}
+.galaxias{
+    color: aliceblue;
+}
+.planetas{
+    color: aliceblue;
+}
+.nebulosas{
+    color: aliceblue;
+}
+.satelites{
+    color: aliceblue;
+}
+.plantas{
+    color: aliceblue;
+}
+.agujeros{
+    color: aliceblue;
+}
+.title-celestes{
+    color: azure;
+}
+.title-preguntas{
+    color: #EDAE49;
+}
